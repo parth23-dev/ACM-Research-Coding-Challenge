@@ -31,6 +31,6 @@ I first used the pandas and numpy libraries to convert the data from the .csv fi
 <br/>
 I then used the Elbow Method to find the number of clusters in the data. To use the Elbow Method I used the sklearn and yellowbrick libraries. I used the distortion version of the Elbow Method where the computer computes the sum of squared distances from each point to its assigned center through KMeans. I used the sklearn library while using KMeans. I then used the KElbowVisualizer from the yellowbrick library which created a graph of the distortion score. While looking at the graph the visualizer showed me that the distrotions started to have minimal changes after k = 3 indicating that the data had 3 clusters.
 
-![Image of RMeans Graph](RMeans.png)
+![Image of RMeans Graph](KMeans.png)
 <br/>
 I then used the sklearn and matplotlib libraries to see what the graph would look with 3 clusters. I used the KMean algorithim through the sklearn library to find the points that would correspond to each cluster and then used the matplotlib library to pull up all of the data on a graph to see which points belonged to which clusters.
